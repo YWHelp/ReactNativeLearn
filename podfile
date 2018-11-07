@@ -1,0 +1,29 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '8.0'
+targetsArray = ['ReactNativeLearn']
+targetsArray.each do |t|
+  target t do
+  #target 'ReactNativeLearn' do
+  # Your 'node_modules' directory is probably in the root of your project,
+  # but if not, adjust the `:path` accordingly
+  pod 'React', :path => './Modules/node_modules/react-native', :subspecs => [
+    'Core',
+    'CxxBridge', # Include this for RN >= 0.47
+    'DevSupport', # Include this to enable In-App Devmenu if RN >= 0.43
+    'RCTText',
+    'RCTNetwork',
+    'RCTWebSocket', # Needed for debugging
+    'RCTAnimation', # Needed for FlatList and animations running on native UI thread
+    # Add any other subspecs you want to use in your project
+  ]
+  # Explicitly include Yoga if you are using RN >= 0.42.0
+  pod 'yoga', :path => './Modules/node_modules/react-native/ReactCommon/yoga'
+  # Third party deps podspec link
+  pod 'DoubleConversion', :podspec => './Modules/node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
+  pod 'glog', :podspec => './Modules/node_modules/react-native/third-party-podspecs/glog.podspec'
+  pod 'Folly', :podspec => './Modules/node_modules/react-native/third-party-podspecs/Folly.podspec'
+#  + `pod'alid-native-video/VideoCaching', :path =>'./Modules/node_modules/react-native-video/react-native-video.podspec'` 
+  pod 'react-native-video',:podspec =>'./Modules/node_modules/react-native-video/react-native-video.podspec'
+  pod 'RNVectorIcons', :path => './Modules/node_modules/react-native-vector-icons'
+  end
+end

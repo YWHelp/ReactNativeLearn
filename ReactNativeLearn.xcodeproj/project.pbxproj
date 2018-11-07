@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8406061E2142226500F7BB98 /* RNLMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8406061D2142226500F7BB98 /* RNLMainTabBarController.m */; };
+		8406062C2142259E00F7BB98 /* RNLBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8406062B2142259E00F7BB98 /* RNLBaseNavigationController.m */; };
+		8406062F214225C400F7BB98 /* RNLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8406062E214225C400F7BB98 /* RNLBaseViewController.m */; };
+		84060632214225E400F7BB98 /* RNLHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84060631214225E400F7BB98 /* RNLHomePageViewController.m */; };
+		84060635214225F800F7BB98 /* RNLMessageCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84060634214225F800F7BB98 /* RNLMessageCenterViewController.m */; };
+		840606382142261A00F7BB98 /* RNLPersonalCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840606372142261A00F7BB98 /* RNLPersonalCenterViewController.m */; };
+		8406063B2142262C00F7BB98 /* RNLVideosListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8406063A2142262C00F7BB98 /* RNLVideosListViewController.m */; };
+		8406063F21424A6900F7BB98 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 8406063D21424A6900F7BB98 /* UIColor+Hex.m */; };
+		846422DD21421DF10079F3BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 846422DC21421DF10079F3BD /* AppDelegate.m */; };
+		846422E521421DF20079F3BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846422E421421DF20079F3BD /* Assets.xcassets */; };
+		846422EB21421DF20079F3BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 846422EA21421DF20079F3BD /* main.m */; };
+		84687241215C89E40068F3C5 /* RNLHomePageDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84687240215C89E40068F3C5 /* RNLHomePageDetailViewController.m */; };
+		84E3A9A42143D1C800D92C1C /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E3A9A32143D1C800D92C1C /* libReact.a */; };
+		84E3A9A62143D60F00D92C1C /* libDoubleConversion.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E3A9A52143D60F00D92C1C /* libDoubleConversion.a */; };
+		84E3A9A82143D60F00D92C1C /* libFolly.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E3A9A72143D60F00D92C1C /* libFolly.a */; };
+		84E3A9AA2143D60F00D92C1C /* libglog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E3A9A92143D60F00D92C1C /* libglog.a */; };
+		84E3A9AC2143D60F00D92C1C /* libyoga.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E3A9AB2143D60F00D92C1C /* libyoga.a */; };
+		9121AB9A4D57092C6CF15D7B /* libPods-ReactNativeLearn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 572CA7BAE7460044A583A96A /* libPods-ReactNativeLearn.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		572CA7BAE7460044A583A96A /* libPods-ReactNativeLearn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeLearn.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8406061C2142226500F7BB98 /* RNLMainTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNLMainTabBarController.h; sourceTree = "<group>"; };
+		8406061D2142226500F7BB98 /* RNLMainTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNLMainTabBarController.m; sourceTree = "<group>"; };
+		8406062A2142259E00F7BB98 /* RNLBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNLBaseNavigationController.h; sourceTree = "<group>"; };
+		8406062B2142259E00F7BB98 /* RNLBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNLBaseNavigationController.m; sourceTree = "<group>"; };
+		8406062D214225C400F7BB98 /* RNLBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNLBaseViewController.h; sourceTree = "<group>"; };
+		8406062E214225C400F7BB98 /* RNLBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNLBaseViewController.m; sourceTree = "<group>"; };
+		84060630214225E400F7BB98 /* RNLHomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNLHomePageViewController.h; sourceTree = "<group>"; };
+		84060631214225E400F7BB98 /* RNLHomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNLHomePageViewController.m; sourceTree = "<group>"; };
+		84060633214225F800F7BB98 /* RNLMessageCenterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNLMessageCenterViewController.h; sourceTree = "<group>"; };
+		84060634214225F800F7BB98 /* RNLMessageCenterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNLMessageCenterViewController.m; sourceTree = "<group>"; };
+		840606362142261A00F7BB98 /* RNLPersonalCenterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNLPersonalCenterViewController.h; sourceTree = "<group>"; };
+		840606372142261A00F7BB98 /* RNLPersonalCenterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNLPersonalCenterViewController.m; sourceTree = "<group>"; };
+		840606392142262C00F7BB98 /* RNLVideosListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNLVideosListViewController.h; sourceTree = "<group>"; };
+		8406063A2142262C00F7BB98 /* RNLVideosListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNLVideosListViewController.m; sourceTree = "<group>"; };
+		8406063D21424A6900F7BB98 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		8406063E21424A6900F7BB98 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		846422D821421DF10079F3BD /* ReactNativeLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactNativeLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		846422DB21421DF10079F3BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		846422DC21421DF10079F3BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		846422E421421DF20079F3BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		846422E921421DF20079F3BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846422EA21421DF20079F3BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8468723F215C89E40068F3C5 /* RNLHomePageDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNLHomePageDetailViewController.h; sourceTree = "<group>"; };
+		84687240215C89E40068F3C5 /* RNLHomePageDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNLHomePageDetailViewController.m; sourceTree = "<group>"; };
+		84E3A9A32143D1C800D92C1C /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E3A9A52143D60F00D92C1C /* libDoubleConversion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libDoubleConversion.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E3A9A72143D60F00D92C1C /* libFolly.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFolly.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E3A9A92143D60F00D92C1C /* libglog.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglog.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E3A9AB2143D60F00D92C1C /* libyoga.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libyoga.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D4093E3BAB6D486767F680E /* Pods-ReactNativeLearn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeLearn.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactNativeLearn/Pods-ReactNativeLearn.release.xcconfig"; sourceTree = "<group>"; };
+		CB540A8C042EEE0A4015B6E5 /* Pods-ReactNativeLearn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeLearn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactNativeLearn/Pods-ReactNativeLearn.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		846422D521421DF10079F3BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E3A9A62143D60F00D92C1C /* libDoubleConversion.a in Frameworks */,
+				84E3A9A82143D60F00D92C1C /* libFolly.a in Frameworks */,
+				84E3A9AA2143D60F00D92C1C /* libglog.a in Frameworks */,
+				84E3A9AC2143D60F00D92C1C /* libyoga.a in Frameworks */,
+				84E3A9A42143D1C800D92C1C /* libReact.a in Frameworks */,
+				9121AB9A4D57092C6CF15D7B /* libPods-ReactNativeLearn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84060617214221DC00F7BB98 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				8406063C21424A6900F7BB98 /* UIColor+Hex */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		84060618214221DD00F7BB98 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				840606242142253B00F7BB98 /* HomePage */,
+				840606262142253B00F7BB98 /* MessageCenter */,
+				840606272142253B00F7BB98 /* Personal */,
+				840606252142253B00F7BB98 /* Videos */,
+				8406061B2142222500F7BB98 /* Main */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		84060619214221DD00F7BB98 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		8406061A214221DD00F7BB98 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		8406061B2142222500F7BB98 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8406061C2142226500F7BB98 /* RNLMainTabBarController.h */,
+				8406061D2142226500F7BB98 /* RNLMainTabBarController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8406061F2142238300F7BB98 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				840606292142259E00F7BB98 /* BaseViewController */,
+				840606282142258F00F7BB98 /* BaseView */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		840606242142253B00F7BB98 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				84060630214225E400F7BB98 /* RNLHomePageViewController.h */,
+				84060631214225E400F7BB98 /* RNLHomePageViewController.m */,
+				8468723F215C89E40068F3C5 /* RNLHomePageDetailViewController.h */,
+				84687240215C89E40068F3C5 /* RNLHomePageDetailViewController.m */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		840606252142253B00F7BB98 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				840606392142262C00F7BB98 /* RNLVideosListViewController.h */,
+				8406063A2142262C00F7BB98 /* RNLVideosListViewController.m */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		840606262142253B00F7BB98 /* MessageCenter */ = {
+			isa = PBXGroup;
+			children = (
+				84060633214225F800F7BB98 /* RNLMessageCenterViewController.h */,
+				84060634214225F800F7BB98 /* RNLMessageCenterViewController.m */,
+			);
+			path = MessageCenter;
+			sourceTree = "<group>";
+		};
+		840606272142253B00F7BB98 /* Personal */ = {
+			isa = PBXGroup;
+			children = (
+				840606362142261A00F7BB98 /* RNLPersonalCenterViewController.h */,
+				840606372142261A00F7BB98 /* RNLPersonalCenterViewController.m */,
+			);
+			path = Personal;
+			sourceTree = "<group>";
+		};
+		840606282142258F00F7BB98 /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		840606292142259E00F7BB98 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8406062A2142259E00F7BB98 /* RNLBaseNavigationController.h */,
+				8406062B2142259E00F7BB98 /* RNLBaseNavigationController.m */,
+				8406062D214225C400F7BB98 /* RNLBaseViewController.h */,
+				8406062E214225C400F7BB98 /* RNLBaseViewController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		8406063C21424A6900F7BB98 /* UIColor+Hex */ = {
+			isa = PBXGroup;
+			children = (
+				8406063D21424A6900F7BB98 /* UIColor+Hex.m */,
+				8406063E21424A6900F7BB98 /* UIColor+Hex.h */,
+			);
+			path = "UIColor+Hex";
+			sourceTree = "<group>";
+		};
+		846422CF21421DF10079F3BD = {
+			isa = PBXGroup;
+			children = (
+				846422DA21421DF10079F3BD /* ReactNativeLearn */,
+				846422D921421DF10079F3BD /* Products */,
+				F75ADB20E8ED5650A4E04582 /* Pods */,
+				E119A8F80F65060EAB3F6CF9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		846422D921421DF10079F3BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				846422D821421DF10079F3BD /* ReactNativeLearn.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		846422DA21421DF10079F3BD /* ReactNativeLearn */ = {
+			isa = PBXGroup;
+			children = (
+				84060618214221DD00F7BB98 /* Module */,
+				84060619214221DD00F7BB98 /* Business */,
+				8406061F2142238300F7BB98 /* Common */,
+				84060617214221DC00F7BB98 /* Category */,
+				8406061A214221DD00F7BB98 /* Util */,
+				846422DB21421DF10079F3BD /* AppDelegate.h */,
+				846422DC21421DF10079F3BD /* AppDelegate.m */,
+				846422E421421DF20079F3BD /* Assets.xcassets */,
+				846422E921421DF20079F3BD /* Info.plist */,
+				846422EA21421DF20079F3BD /* main.m */,
+			);
+			path = ReactNativeLearn;
+			sourceTree = "<group>";
+		};
+		E119A8F80F65060EAB3F6CF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84E3A9A52143D60F00D92C1C /* libDoubleConversion.a */,
+				84E3A9A72143D60F00D92C1C /* libFolly.a */,
+				84E3A9A92143D60F00D92C1C /* libglog.a */,
+				84E3A9AB2143D60F00D92C1C /* libyoga.a */,
+				84E3A9A32143D1C800D92C1C /* libReact.a */,
+				572CA7BAE7460044A583A96A /* libPods-ReactNativeLearn.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F75ADB20E8ED5650A4E04582 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB540A8C042EEE0A4015B6E5 /* Pods-ReactNativeLearn.debug.xcconfig */,
+				8D4093E3BAB6D486767F680E /* Pods-ReactNativeLearn.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		846422D721421DF10079F3BD /* ReactNativeLearn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846422EE21421DF20079F3BD /* Build configuration list for PBXNativeTarget "ReactNativeLearn" */;
+			buildPhases = (
+				CB5515A9EAB95B234DF70178 /* [CP] Check Pods Manifest.lock */,
+				846422D421421DF10079F3BD /* Sources */,
+				846422D521421DF10079F3BD /* Frameworks */,
+				846422D621421DF10079F3BD /* Resources */,
+				083E3E5169B1F47601E92F89 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactNativeLearn;
+			productName = ReactNativeLearn;
+			productReference = 846422D821421DF10079F3BD /* ReactNativeLearn.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		846422D021421DF10079F3BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Gaoxin;
+				TargetAttributes = {
+					846422D721421DF10079F3BD = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 846422D321421DF10079F3BD /* Build configuration list for PBXProject "ReactNativeLearn" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 846422CF21421DF10079F3BD;
+			productRefGroup = 846422D921421DF10079F3BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				846422D721421DF10079F3BD /* ReactNativeLearn */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		846422D621421DF10079F3BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846422E521421DF20079F3BD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		083E3E5169B1F47601E92F89 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ReactNativeLearn/Pods-ReactNativeLearn-resources.sh",
+				"${PODS_ROOT}/../Modules/node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../Modules/node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../Modules/node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../Modules/node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../Modules/node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../Modules/node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../Modules/node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../Modules/node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../Modules/node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../Modules/node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../Modules/node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../Modules/node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../Modules/node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../Modules/node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactNativeLearn/Pods-ReactNativeLearn-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB5515A9EAB95B234DF70178 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReactNativeLearn-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		846422D421421DF10079F3BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8406062C2142259E00F7BB98 /* RNLBaseNavigationController.m in Sources */,
+				8406063F21424A6900F7BB98 /* UIColor+Hex.m in Sources */,
+				846422EB21421DF20079F3BD /* main.m in Sources */,
+				8406063B2142262C00F7BB98 /* RNLVideosListViewController.m in Sources */,
+				84060635214225F800F7BB98 /* RNLMessageCenterViewController.m in Sources */,
+				84060632214225E400F7BB98 /* RNLHomePageViewController.m in Sources */,
+				8406062F214225C400F7BB98 /* RNLBaseViewController.m in Sources */,
+				840606382142261A00F7BB98 /* RNLPersonalCenterViewController.m in Sources */,
+				8406061E2142226500F7BB98 /* RNLMainTabBarController.m in Sources */,
+				846422DD21421DF10079F3BD /* AppDelegate.m in Sources */,
+				84687241215C89E40068F3C5 /* RNLHomePageDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		846422EC21421DF20079F3BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		846422ED21421DF20079F3BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		846422EF21421DF20079F3BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB540A8C042EEE0A4015B6E5 /* Pods-ReactNativeLearn.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ST585KS23M;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"/**",
+					"\"${PODS_ROOT}/Headers/Public/DoubleConversion\"/**",
+					"\"${PODS_ROOT}/Headers/Public/React\"/**",
+					"\"${PODS_ROOT}/Headers/Public/glog\"/**",
+					"\"${PODS_ROOT}/Headers/Public/yoga\"/**",
+				);
+				INFOPLIST_FILE = ReactNativeLearn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaoxin.EastNews.ReactNativeLearn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		846422F021421DF20079F3BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D4093E3BAB6D486767F680E /* Pods-ReactNativeLearn.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ST585KS23M;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"/**",
+					"\"${PODS_ROOT}/Headers/Public/DoubleConversion\"/**",
+					"\"${PODS_ROOT}/Headers/Public/React\"/**",
+					"\"${PODS_ROOT}/Headers/Public/glog\"/**",
+					"\"${PODS_ROOT}/Headers/Public/yoga\"/**",
+				);
+				INFOPLIST_FILE = ReactNativeLearn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaoxin.EastNews.ReactNativeLearn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		846422D321421DF10079F3BD /* Build configuration list for PBXProject "ReactNativeLearn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846422EC21421DF20079F3BD /* Debug */,
+				846422ED21421DF20079F3BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846422EE21421DF20079F3BD /* Build configuration list for PBXNativeTarget "ReactNativeLearn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846422EF21421DF20079F3BD /* Debug */,
+				846422F021421DF20079F3BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 846422D021421DF10079F3BD /* Project object */;
+}
