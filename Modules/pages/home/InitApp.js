@@ -2,7 +2,6 @@
 import React, { Component } from 'react';
 import Video from 'react-native-video';
 import { AppRegistry,FlatList, StyleSheet, Text, View } from 'react-native';
-
 export default class InitApp extends Component {
   render() {
     return (
