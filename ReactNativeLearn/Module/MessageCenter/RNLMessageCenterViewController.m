@@ -26,7 +26,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"消息";
-    // Do any additional setup after loading the view.
+    NSString * strUrl = @"http://172.18.7.163:8081/pages/home/SvgAnimation.bundle?platform=ios";
+    NSURL * jsCodeLocation = [NSURL URLWithString:strUrl];
+    RCTRootView *rootView =
+    [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
+                                moduleName:@"SvgAnimation"
+                         initialProperties:nil
+                             launchOptions: nil];
+    self.view = rootView;
 }
 
 - (void)didReceiveMemoryWarning {

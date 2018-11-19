@@ -6,14 +6,13 @@ import {
     FlatList, 
     StyleSheet, 
     Text, 
+    ART,
     View, 
     TabBarIOS,
     Button,
     Dimensions,
     TouchableOpacity
 } from 'react-native';
-import Video from 'react-native-video';
-import videoTempView from  "./InitApp";
 const { height, width } = Dimensions.get('window');
 var ITEM_HEIGHT = 100;
 export default class TabBar extends Component{
@@ -36,15 +35,8 @@ export default class TabBar extends Component{
                  this.setState({selectedTab:'home'});
                }}
              >
-                {/* <Text style={styles.content}>互助</Text> */}
-                {/* <View style={styles.backgroundVideo}></View> */}
-                {/* <videoTempView ></videoTempView> */}
-                <Video source={require('../../resource/videos/broadchurch.mp4')}   // Can be a URL or a local file.
-                 style={styles.backgroundVideo} 
-                />
-                {/* <videoTempView style={styles.backgroundVideo} /> */}
+                <Text style={styles.content}>互助</Text>
              </TabBarIOS.Item>
-
              <TabBarIOS.Item
               title = "凭证"
               icon = {require('../../resource/images/TabBarIcon/cert.png')}

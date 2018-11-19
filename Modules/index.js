@@ -311,6 +311,7 @@ import React, { Component } from "react";
 import { AppRegistry } from 'react-native';
 // import InitApp from  "./pages/home/InitApp";
 import ListView from  "./pages/home/ListView";
+import SvgAnimation from  "./pages/home/SvgAnimation";
 AppRegistry.registerComponent('ReactNativeLearn', ()=>ListView);
 
 /*

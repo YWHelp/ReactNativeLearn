@@ -13,11 +13,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSString * strUrl = @"http://172.18.7.203:8081/pages/home/TabBar.bundle?platform=ios";
+    NSString * strUrl = @"http://172.18.7.163:8081/pages/home/TabBar.bundle?platform=ios";
     NSURL * jsCodeLocation = [NSURL URLWithString:strUrl];
     RCTRootView *rootView =
-    [[RCTRootView alloc] initWithBundleURL: jsCodeLocation
-                                moduleName: @"TabBar"
+    [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
+                                moduleName:@"TabBar"
                          initialProperties:nil
                              launchOptions: nil];
     self.view = rootView;

@@ -7,7 +7,7 @@
 //
 
 #import "RNLBaseViewController.h"
-
+#import <React/RCTRootView.h>
 @interface RNLMessageCenterViewController : RNLBaseViewController
 
 @end
